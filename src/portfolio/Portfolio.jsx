@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from "react";
+import imgs from "./../../src/assets/images/images"
 import "./portfolio.css";
 import Modal from "./../modal/Modal";
 import Item from "../item/Item";
+
+const {port1,port2,port3} =  imgs
+
 const Portfolio = () => {
   // state for modal ==========================
   const [display, setDisplay] = useState(false);
@@ -16,12 +20,12 @@ const Portfolio = () => {
   }
   // img date===============================
   const imgDate = [
-    { id: 1, src: "./src/assets/images/poert1.png", alt: "red image" },
-    { id: 2, src: "./src/assets/images/port2.png", alt: "blue image" },
-    { id: 3, src: "./src/assets/images/port3.png", alt: "brown image" },
-    { id: 4, src: "./src/assets/images/poert1.png", alt: "red image" },
-    { id: 5, src: "./src/assets/images/port2.png", alt: "blue image" },
-    { id: 6, src: "./src/assets/images/port3.png", alt: "brown image" },
+    { id: 1, src: port1, alt: "red image" },
+    { id: 2, src:port2, alt: "blue image" },
+    { id: 3, src: port3, alt: "brown image" },
+    { id: 4, src: port1, alt: "red image" },
+    { id: 5, src: port2, alt: "blue image" },
+    { id: 6, src: port3, alt: "brown image" },
   ];
   //   jsx code=======================================
   return (

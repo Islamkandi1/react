@@ -2,6 +2,7 @@ import React from "react";
 
 const Item = ({ ele, setDisplay, setImg }) => {
   const { src, alt } = ele;
+  
 // handle modal ===========================================
   function handleModal() {
     setDisplay(true);

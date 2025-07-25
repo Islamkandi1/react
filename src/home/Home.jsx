@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+import img from "./../../src/assets/images/avatar.svg"
 const Home = () => {
   return (
     <>
@@ -7,7 +8,7 @@ const Home = () => {
         <section className="content py-5  ">
           <figure>
             <img
-              src="./src/assets/images/avatar.svg"
+              src={img}
               className="w-100"
               alt="avatar image"
             />
