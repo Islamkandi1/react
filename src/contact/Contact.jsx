@@ -34,7 +34,7 @@ const Contact = () => {
               <span className="line"></span>
             </section>
           </section>
-          <form className="px-3 my-form">
+          <form className="px-3 my-form" onSubmit={(e)=>e.preventDefault()}>
             <section className="input-box">
               <label
                 htmlFor="userName"
