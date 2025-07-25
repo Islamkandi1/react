@@ -1,0 +1,32 @@
+.py-6{
+    padding: 5rem 0;
+}
+.prot h2{
+  font-weight: 700;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.prot .line {
+  width: 100px;
+  height: 4px;
+  background-color: var(--main-color);
+  margin: 0 10px;
+}
+ .layer{
+  background-color: #1abc9ca7;
+  opacity: 0;
+  transition: all .6s;
+}
+.prot .inner{
+  cursor: pointer;
+}
+.inner:hover .layer{
+  opacity: 1;
+}
+.layer i{
+  font-size: 3rem;
+  color: var(--text-color);
+}

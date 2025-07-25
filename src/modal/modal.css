@@ -1,0 +1,12 @@
+.my-modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #0000009b;
+    z-index: 2000;
+}
+.open-modal{
+    width: 500px;
+    height: 400px;
+}

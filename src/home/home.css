@@ -1,0 +1,13 @@
+.home {
+  background-color: var(--second-color);
+  position: relative;
+  top: 40px;
+  color: var(--text-color);
+}
+figure {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.header {
+  font-size: 1.8rem;
+}

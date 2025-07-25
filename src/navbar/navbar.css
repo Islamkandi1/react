@@ -1,0 +1,42 @@
+.bg-nav {
+  background-color: var(--main-color);
+}
+.navbar{
+  transition: all .4s;
+}
+.logo {
+  color: var(--text-color);
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 0;
+  &:hover {
+    color: var(--text-color);
+  }
+  &:focus {
+    color: var(--text-color);
+  }
+}
+.bars {
+  color: var(--text-color);
+  font-size: 1.4rem;
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0px 0px 6px #fff;
+}
+.my-link{
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: .4rem .7rem;
+    font-size: 1.1rem;
+    &:hover{
+        color: var(--text-color);
+    }
+}
+.navbar-nav .nav-link.active{
+  background-color: var(--second-color);
+  color: var(--text-color);
+  border-radius: 10px;
+}

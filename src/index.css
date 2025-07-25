@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: system-ui, sans-serif;
+}
+:root{
+  --main-color:#2C3E50;
+  --first-color:#1A252F;
+  --second-color:#1ABC9C;
+  --text-color:#fff;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line {
+  width: 100px;
+  height: 4px;
+  background-color: white;
+  margin: 0 10px;
+}
+.my-link{
+  padding: .4rem;
+  width: fit-content;
+}

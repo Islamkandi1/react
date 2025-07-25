@@ -1,0 +1,30 @@
+.about {
+  background-color: var(--second-color);
+  color: var(--text-color);
+  position: relative;
+  top: 40px;
+}
+ h2{
+    font-size: 1.9rem;
+}
+.inner .about-p{
+    font-size: 1rem;
+    max-width: 500px;
+}
+i{
+    font-size: 1rem;
+}
+.py-7{
+    padding: 5rem 0;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .line {
+  width: 100px;
+  height: 4px;
+  background-color: white;
+  margin: 0 10px;
+}
