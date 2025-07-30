@@ -52,7 +52,7 @@ const Portfolio = () => {
           })}
         </section>
       </section>
-      <Modal display={display} img={img} closeModal={closeModal} />
+      {display && <Modal  img={img} closeModal={closeModal} />}
     </>
   );
 };

@@ -1,7 +1,6 @@
 import React from "react";
 import "./modal.css"
-const Modal = ({display ,img,closeModal}) => {
-  if(display ==false) return
+const Modal = ({img,closeModal}) => {
   return (
     <>
       <div className="my-modal  d-flex justify-content-center align-items-center" onClick={()=>closeModal()}>
